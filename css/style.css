@@ -1,0 +1,45 @@
+body{
+    width: auto;
+}
+
+.formHotel {
+    width: 400px;
+    margin: auto;
+    background-color: lightgray;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.formHotel div {
+    margin: 15px;
+}
+
+.formHotel select {
+    width: 100px;
+    margin-left: 100px;
+}
+
+.spa input {
+    margin-left: 90px;
+}
+
+.roomNights input{
+    width: 40px;
+    margin-left: 60px;
+}
+
+.parkingNights input{
+    width: 40px;
+    margin-left: 78px;
+}
+
+.total {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.total input{
+    width: 60px;
+    text-align: right;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="formHotel">
+        <div class="roomType">
+            <label>Elija el tipo de habitación</label>
+            <select id="roomTypeSelect">
+                <option value="valueNull" selected>Elegir</option>
+                <option value="valueStandard">Standard</option>
+                <option value="valueJuniorSuite">Junior Suite</option>
+                <option value="valueSuite">Suite</option>
+            </select>
+        </div>
+        <div class="spa">
+            <label>¿Desea hacer uso del SPA?</label>
+            <input id="spaCheckbox" type="checkbox">
+        </div>
+        <div class="roomSize">
+            <label>Elija el tipo de habitación</label>
+            <select id="roomSizeSelect">
+                <option value="valueNull" selected>Elegir</option>
+                <option value="valueIndividual">Individual</option>
+                <option value="valueDouble">Doble</option>
+                <option value="valueTriple">Triple</option>
+            </select>
+        </div>
+        <div class="roomNights">
+            <label>¿Cuantas noches de habitación?</label>
+            <input id="roomNightsInput" type="number" value="0">
+        </div>
+        <div class="parkingNights">
+            <label>¿Cuantas noches de parking?</label>
+            <input id="parkingNightsInput" type="number" value="0">
+        </div>
+        <div class="total">
+            <button id="calculateButton" value="Calcular">Calcular</button>
+            <input id="calculateInput" type="text" value="0 €">
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
